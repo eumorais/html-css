@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-nayeon: #5AC2E7;
+    --cor-jeongyeon: #C5D97A;
+    --cor-momo: #FE8DA1;
+    --cor-sana: #9B7DD3;
+    --cor-jihyo: #FEC56E;
+    --cor-mina: #6ECDB9;
+    --cor-dahyun: #FFFFFF;
+    --cor-chaeyoung: #ED2736;
+    --cor-tzuyu: #015E89;
+
+    --font-twice: 'Pacifico';
+    --font-padrao: 'Hind Siliguri';
+}
+
+body{
+    background-color: #F5ADA0;
+}
+
+
+header{
+    background-color: #F75C9D;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+header > h1{
+    font-size: 4em;
+    padding-top: 20px;
+    font-family: var(--font-twice);
+    color: white;
+}
+
+header > p{
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    color: white;
+}

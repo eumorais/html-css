@@ -6,11 +6,15 @@
 
 
 
+
 :root{
-    --font-padrao: 'SST';
+    --font-playstation: 'SST';
+    --font-padrao: 'Inter';
 
     --cor1: #0F274A;
     --cor2: #1B478A;
+
+    --titulo1: #0F9FD9;
 }
 
 
@@ -21,8 +25,8 @@
 
 
 header{
-    font-family: var(--font-padrao);
-    background-color: var(--cor2);
+    font-family: var(--font-playstation);
+    background-color: var(--cor1);
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -35,7 +39,7 @@ header img{
 
 header a{
     color: white;
-    font-family: var(--font-padrao);
+    font-family: var(--font-playstation);
     text-decoration: none;
     font-size: 1.2em;
     margin-right: 30px;
@@ -52,7 +56,7 @@ header a:hover{
 
 
 main{
-    background-color: var(--cor1);
+    background-color: white;
 }
 
 article{
@@ -60,19 +64,43 @@ article{
     width: 1000px;
     height: 900px;
     margin: auto;
-    font-family: var(--font-padrao);
-    box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.48);
+    font-family: var(--font-playstation);
+    /* box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.48);
     border-bottom-left-radius: 8px ;
-    border-bottom-right-radius: 8px ;
+    border-bottom-right-radius: 8px ; */
 }
 
 article h1{
     padding-top: 20px;
     text-align: center;
-    font-size: 2em;
+    font-size: 35px;
+    color: var(--cor2);
 }
+
+article h2{
+    margin-top: 30px;
+    font-size: 2em;
+    color: var(--cor2);
+}
+article p{
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Inter';
+    font-size: 19px;
+    text-indent: 40px;
+    margin: 15px;
+}
+article img{
+    margin-top: 30px;
+    /* WIDTH PADRÃO DE 600PX (AJUSTAR COM O GIMP) */
+}
+
 
 
 .center{
     text-align: center;
+}
+.link{
+    color: var(--cor1);
+    font-weight: bold;
 }

@@ -21,17 +21,21 @@
 *{
     margin: 0px;        
     padding: 0px;
+    max-width: 100%;
+    min-width: auto;
 }
 
 
 header{
     font-family: var(--font-playstation);
     background-color: var(--cor1);
-    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-
+    min-width: auto;
+    max-width: 100%;
 }
+
+
 
 header img{
     width: 300px;
@@ -46,6 +50,7 @@ header a{
     margin-right: 30px;
     font-weight: bold;
     padding: 6px;
+
 }
 header a:hover{
     text-decoration: underline;

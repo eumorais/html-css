@@ -27,6 +27,7 @@
 header{
     font-family: var(--font-playstation);
     background-color: var(--cor1);
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
 

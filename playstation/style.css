@@ -110,6 +110,19 @@ article img{
 }
 
 
+div.video{
+    background-color: #1B478A;
+    position: relative;
+    padding-bottom: 57%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 
 .center{
     text-align: center;

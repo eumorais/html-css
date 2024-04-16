@@ -19,33 +19,38 @@
     padding: 0%;
     max-width: 100%;
     min-width: auto;
+    background-color: #9580E9;
 }
 
 header{
-    background-color: var(--cor-clara);
+    background-color: #571896;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
 header h1{
+    background-color: #571896;
     font-family: var(--font-twice);
     color: white;
     font-size: 3em;
     text-align: center;
+    text-shadow: 3px 3px black;
 }
 
 
 main{
-    background-color: white;
     padding: 20px;
+    background-color: #9580E9;
+    
 }
 
 article{
-    background-color: white;
+    /* background-color: white; */
     max-width: 1000px;
     height: 900px;
     margin: auto;
     font-family: var(--font-texto);
+
     /* box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.48);
     border-bottom-left-radius: 8px ;
     border-bottom-right-radius: 8px ; */
@@ -69,3 +74,6 @@ img{
 .center{
     text-align: center;
 }
+
+
+
